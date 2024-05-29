@@ -147,22 +147,22 @@ class _DashboardScreenState extends State<DashboardScreen> {
               child: Row(
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: [
-                  BoxLayanan(
+                  boxLayanan(
                       'assets/img/dashboard/truck_icon.png', 'Angkut Barang'),
                   SizedBox(
                     width: 25,
                   ),
-                  BoxLayanan('assets/img/dashboard/electric_icon.png',
+                  boxLayanan('assets/img/dashboard/electric_icon.png',
                       'Perbaikan Listrik'),
                   SizedBox(
                     width: 25,
                   ),
-                  BoxLayanan('assets/img/dashboard/water_icon.png',
+                  boxLayanan('assets/img/dashboard/water_icon.png',
                       'Perbaikan Saluran Air'),
                   SizedBox(
                     width: 25,
                   ),
-                  BoxLayanan('assets/img/dashboard/ac_icon.png', 'Servis \nAC')
+                  boxLayanan('assets/img/dashboard/ac_icon.png', 'Servis \nAC')
                 ],
               ),
             ),
@@ -190,7 +190,7 @@ class _DashboardScreenState extends State<DashboardScreen> {
     );
   }
 
-  Widget BoxLayanan(String icon, String title) {
+  Widget boxLayanan(String icon, String title) {
     return SizedBox(
       width: 62,
       child: Column(
